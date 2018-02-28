@@ -31,6 +31,7 @@ class Human
     a = {"manoj" => "colorado", "mandir" => "minneasota", "menuka" => "kathmanndu"}
     a.reduce({}) do |swap, name|
       swap[name[1]] = name[0]
+      #creates an array of something like ["manoj", "colorado"]
       swap
     end
   end
