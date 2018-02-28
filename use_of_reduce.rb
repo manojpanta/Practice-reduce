@@ -55,3 +55,6 @@ puts manoj.age
 puts manoj.test_again
 puts manoj.test_again_again
 puts manoj.test_reduce_more
+
+
+#this is kinda confusing
