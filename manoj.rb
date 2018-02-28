@@ -27,6 +27,17 @@ class Human
     end
   end
 
+  def test_again_again
+    a = {"manoj" => "colorado", "mandir" => "minneasota", "menuka" => "kathmanndu"}
+    a.reduce({}) do |swap, name|
+      swap[name[1]] = name[0]
+      swap
+    end
+  # end
+
+
+  end
+
 end
 
 
@@ -36,3 +47,4 @@ puts manoj.test
 puts manoj.name
 puts manoj.age
 puts manoj.test_again
+puts manoj.test_again_again
