@@ -31,7 +31,11 @@ class Human
     a = {"manoj" => "colorado", "mandir" => "minneasota", "menuka" => "kathmanndu"}
     a.reduce({}) do |swap, name|
       swap[name[1]] = name[0]
+<<<<<<< HEAD
       #creates an array of something like ["manoj", "colorado"] for each keys and value
+=======
+      #creates an array of something like ["manoj", "colorado"] for each keys and values
+>>>>>>> a61e5ac6ccfcc541021a200a7130edadf81813bc
       swap
     end
   end
