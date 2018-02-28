@@ -33,9 +33,14 @@ class Human
       swap[name[1]] = name[0]
       swap
     end
-  # end
+  end
 
-
+  def test_reduce_more
+    a = [1,3235,245,56768,653423,6435243457867564354231,798746352413,764354231,87546352413,85746352413]
+    a.reduce(123456798765432) do |total, num|
+      total += num
+      total
+    end
   end
 
 end
@@ -48,3 +53,4 @@ puts manoj.name
 puts manoj.age
 puts manoj.test_again
 puts manoj.test_again_again
+puts manoj.test_reduce_more
